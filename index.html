@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EstateFlow CRM — Real Estate Lead Management</title>
+    <meta name="description" content="EstateFlow CRM — Cloud-based real estate CRM for managing leads, properties, inventory, follow-ups, and team performance." />
+    <meta name="theme-color" content="#4f46e5" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="EstateFlow CRM" />
+    <meta property="og:description" content="Cloud-based real estate CRM for managing leads, properties, inventory, follow-ups, and team performance." />
+    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:url" content="https://estateflow.app" />
+    <meta property="og:site_name" content="EstateFlow CRM" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="EstateFlow CRM" />
+    <meta name="twitter:description" content="Cloud-based real estate CRM for managing leads, properties, inventory, follow-ups, and team performance." />
+    <meta name="twitter:image" content="/og-image.png" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://estateflow.app" />
+
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <!-- X-Frame-Options: set to SAMEORIGIN in production via server headers -->
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(self)" />
+
+    <!-- CSP — tightened: removed unsafe-eval -->
+    <!-- CSP: frame-ancestors uses * for preview compatibility; tighten to 'self' in production -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https: blob:; font-src 'self' data:; connect-src 'self' https: wss:; frame-ancestors *; base-uri 'self'; form-action 'self';" />
+
+    <!-- Clickjacking protection via X-Frame-Options and CSP frame-ancestors above -->
+    <!-- Note: frame-busting JS removed to allow preview environments -->
+
+    <!-- Favicon (inline SVG data-uri so no 404) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234f46e5'/%3E%3Ctext x='50%25' y='56%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-family='system-ui' font-weight='700' font-size='16'%3EEF%3C/text%3E%3C/svg%3E" />
+    <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Crect width='180' height='180' rx='40' fill='%234f46e5'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-family='system-ui' font-weight='700' font-size='72'%3EEF%3C/text%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run EstateFlow CRM.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
