@@ -8,3 +8,5 @@ dist/
 
 *.log
 vite-localhost*.log
+
+.vercel
